@@ -1,46 +1,57 @@
-# Welcome to my Portfolio
+# 🌟 Min Thant Wai – Portfolio
 
-## Project info
+A modern, responsive portfolio website built with Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.
+This project showcases my work, skills, and achievements in software development and design.
 
+🚀 Getting Started
 
-Follow these steps:
+Follow these steps to run the project locally:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone 
+# Step 1: Clone the repository
+git clone https://github.com/Derek-Min/Min_Thant_Wai_Portfolio.git
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project folder
 cd Min_Thant_Wai_Portfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
 
+Once started, open your browser and visit:
+👉 http://localhost:8081
+
+🛠️ Technologies Used
+
+⚡ Vite – Blazing fast build tool
+
+⚛️ React – Component-based frontend library
+
+📝 TypeScript – Strongly typed JavaScript
+
+🎨 Tailwind CSS – Utility-first CSS framework
+
+🧩 shadcn-ui – Accessible, customizable UI components
+
+✨ Features
+
+Responsive and modern UI
+
+Easy customization with Tailwind
+
+Component-driven architecture
+
+Developer-friendly setup
+
+📂 Project Structure
+Min_Thant_Wai_Portfolio/
+├── src/                # Source code
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Page views
+│   ├── assets/         # Static assets (images, icons, etc.)
+│   └── App.tsx         # Root component
+├── public/             # Public files
+├── package.json        # Dependencies and scripts
+└── vite.config.ts      # Vite configuration
