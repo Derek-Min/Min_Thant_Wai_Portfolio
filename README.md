@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# 🌟 Min Thant Wai – Portfolio
 
-## Project info
+A modern, responsive portfolio website built with Vite, TypeScript, React, shadcn-ui, and Tailwind CSS.
+This project showcases my work, skills, and achievements in software development and design.
 
-**URL**: https://lovable.dev/projects/07721007-f8c5-44f0-be15-c243cd62ec04
+🚀 Getting Started
 
-## How can I edit this code?
+Follow these steps to run the project locally:
 
-There are several ways of editing your application.
+# Step 1: Clone the repository
+git clone https://github.com/Derek-Min/Min_Thant_Wai_Portfolio.git
 
-**Use Lovable**
+# Step 2: Navigate to the project folder
+cd Min_Thant_Wai_Portfolio
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07721007-f8c5-44f0-be15-c243cd62ec04) and start prompting.
+# Step 3: Install dependencies
+npm install
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Once started, open your browser and visit:
+👉 http://localhost:8081
 
-**Use GitHub Codespaces**
+🛠️ Technologies Used
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+⚡ Vite – Blazing fast build tool
 
-## What technologies are used for this project?
+⚛️ React – Component-based frontend library
 
-This project is built with:
+📝 TypeScript – Strongly typed JavaScript
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🎨 Tailwind CSS – Utility-first CSS framework
 
-## How can I deploy this project?
+🧩 shadcn-ui – Accessible, customizable UI components
 
-Simply open [Lovable](https://lovable.dev/projects/07721007-f8c5-44f0-be15-c243cd62ec04) and click on Share -> Publish.
+✨ Features
 
-## Can I connect a custom domain to my Lovable project?
+Responsive and modern UI
 
-Yes, you can!
+Easy customization with Tailwind
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Component-driven architecture
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Developer-friendly setup
+
+📂 Project Structure
+Min_Thant_Wai_Portfolio/
+├── src/                # Source code
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Page views
+│   ├── assets/         # Static assets (images, icons, etc.)
+│   └── App.tsx         # Root component
+├── public/             # Public files
+├── package.json        # Dependencies and scripts
+└── vite.config.ts      # Vite configuration
