@@ -35,12 +35,12 @@ const Hero = () => {
           
           {/* Subtitle */}
           <h2 className="text-xl md:text-3xl lg:text-4xl font-semibold mb-8 text-muted-foreground animate-fade-in-up opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
-            Software Engineer & AI Developer
+            Software Engineer
           </h2>
           
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up opacity-0" style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
-            MSc Software Engineering student with expertise in AI development, web applications, 
+            MSc Software Engineering student with expertise in web applications, 
             and full-stack solutions. Passionate about creating innovative software that solves real-world problems.
           </p>
           
@@ -62,7 +62,7 @@ const Hero = () => {
               className="border-border/50 hover:border-primary/50 hover:shadow-glow transition-all duration-300 px-8"
               asChild
             >
-              <a href="/resume.pdf" download>
+              <a href="\src\resume\MIN THANT WAI Resume.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
                 Download Resume
               </a>

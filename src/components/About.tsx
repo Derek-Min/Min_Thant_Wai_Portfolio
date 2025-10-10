@@ -41,7 +41,7 @@ const About = () => {
               <div className="glass-card p-8 rounded-xl">
                 <h3 className="text-xl font-semibold mb-4 text-accent">Current Focus</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  I specialize in full-stack web development, AI integration, and cloud technologies. 
+                  I specialize in full-stack web development, AI technologies. 
                   My recent work includes AWS AI chatbot development and creating robust web applications 
                   with modern frameworks and best practices.
                 </p>
@@ -67,17 +67,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Key Stats */}
-              <div className="grid grid-cols-2 gap-4">
-                <div className="glass-card p-6 rounded-xl text-center">
-                  <div className="text-2xl font-bold text-primary mb-2">5+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
-                </div>
-                <div className="glass-card p-6 rounded-xl text-center">
-                  <div className="text-2xl font-bold text-secondary mb-2">10+</div>
-                  <div className="text-sm text-muted-foreground">Technologies</div>
-                </div>
-              </div>
 
               {/* Personal Interests */}
               <div className="glass-card p-8 rounded-xl">

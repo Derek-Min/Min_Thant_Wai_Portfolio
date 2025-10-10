@@ -1,24 +1,24 @@
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
-import aiChatbotImage from '@/assets/project-ai-chatbot.jpeg';
-import insuranceImage from '@/assets/project-insurance.jpeg';
+import aiChatbotImage from '@/assets/project_ai_chatbot.png';
+/*import insuranceImage from '@/assets/project-insurance.jpeg';*/
 import webappImage from '@/assets/project-webapp.jpeg';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'AWS AI Chatbot',
+      title: 'Life Insurance Quotation Chatbot',
       description: 'Intelligent conversational AI system built using AWS AI services including natural language processing and machine learning capabilities. Features advanced context understanding and multi-turn conversations.',
       image: aiChatbotImage,
-      technologies: ['AWS AI Services', 'Python', 'Natural Language Processing', 'Machine Learning', 'Cloud Architecture'],
-      category: 'AI Development',
+      technologies: ['AWS AI Services', 'Python', 'Natural Language Processing', 'Machine Learning'],
+      category: 'Chatbot Development',
       status: 'Hackathon Project',
       links: {
-        github: 'https://github.com/Derek-Min',
+        github: 'https://github.com/Derek-Min/Life-Insurance-Quotation-Chatbot',
         demo: '#'
       }
     },
-    {
+    /*{
       title: 'Insurance Risk Management System',
       description: 'Comprehensive web-based platform for insurance underwriting and risk assessment. Streamlines policy evaluation process with automated risk scoring and data analytics dashboard.',
       image: insuranceImage,
@@ -29,16 +29,16 @@ const Projects = () => {
         github: 'https://github.com/Derek-Min',
         demo: '#'
       }
-    },
+    },*/
     {
       title: 'Responsive Web Application',
       description: 'Modern, responsive web application showcasing full-stack development skills. Features clean UI/UX design, efficient backend architecture, and cross-platform compatibility.',
       image: webappImage,
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Responsive Design'],
+      technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'C#', 'Responsive Design'],
       category: 'Web Development',
-      status: 'Portfolio Project',
+      status: 'Microsoft ASP.Net',
       links: {
-        github: 'https://github.com/Derek-Min',
+        github: 'https://github.com/Derek-Min/Serena-s-Souvenir-Sanctuary',
         demo: 'https://minthantwai.pages.dev/'
       }
     }

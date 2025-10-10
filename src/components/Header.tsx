@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import logoLight from "@/assets/logo_white.png";        // for dark header
+import logoDark from "@/assets/logo_black.png";   // for light header
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -22,6 +24,8 @@ const Header = () => {
     { href: '#contact', label: 'Contact' },
   ];
 
+const logoSrc = isScrolled ? logoDark : logoLight;
+
   return (
     <header 
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -32,9 +36,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-full bg-hero-gradient flex items-center justify-center font-bold text-background">
-              MTW
-            </div>
+            <img
+              src={logoSrc}
+              alt="Min Thant Wai logo"
+              className="w-10 h-10 object-contain"
+            />
             <span className="font-bold text-xl hero-text">Min Thant Wai</span>
           </div>
 

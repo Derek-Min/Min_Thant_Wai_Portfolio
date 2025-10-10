@@ -142,7 +142,7 @@ const Contact = () => {
                     className="w-full justify-start hover:border-primary/50 hover:shadow-glow transition-all duration-300"
                     asChild
                   >
-                    <a href="/resume.pdf" download>
+                    <a href="\src\resume\MIN THANT WAI Resume.pdf" download>
                       <Mail className="w-4 h-4 mr-2" />
                       Download My Resume
                     </a>
