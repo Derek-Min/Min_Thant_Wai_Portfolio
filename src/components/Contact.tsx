@@ -161,7 +161,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Contact Form */}
+           {/* 
             <div>
               <Card className="glass-card p-8 rounded-xl">
                 <h3 className="text-2xl font-bold mb-6 hero-text">Send a Message</h3>
@@ -239,7 +239,7 @@ const Contact = () => {
                   </Button>
                 </form>
               </Card>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
